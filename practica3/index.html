@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    
+    <!--bootstrapp css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <style>
+ 
+        h1  {
+            font-size: 100px;
+            text-align: center;
+        }
+        
+ 
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+ 
+        .normal {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+ 
+        .delgada {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        }
+ 
+    </style>
+ 
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Personajes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Heroes</a></li>
+                  <li><a class="dropdown-item" href="#">Villanos</a></li>
+                  <li><a class="dropdown-item" href="#">Celestiales</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Antiheroes</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <h1 class="delgada">MCU CHARACTERES</h1>
+    <table class="table table-striped table-hover text-center">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">foto</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>
+                <img width= 200px src="https://imgs.search.brave.com/iIrZXz3fsGGjUYmRIQNvdYAnVvtuzs1TBoiqrm4m7fQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2FsbHBhcGVyc2Fm/YXJpLmNvbS85MC82/NS9XcDJtNmsuanBn">
+            </td>
+            <td>Tony</td>
+            <td>Stark</td>
+            <td>tenis colgados</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Peter</td>
+            <td>Parcker</td>
+            <td>19</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <th>Steve</td>
+            <td>Rogers</td>
+            <td>102</td>
+          </tr>
+        </tbody>
+      </table>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
