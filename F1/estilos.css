@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .mi-color-navbar {
     background-color: white !important;
@@ -147,3 +148,142 @@ body{
 }
 
 
+=======
+
+.mi-color-navbar {
+    background-color: white !important;
+    font-family: "Titillium Web", sans-serif;
+    padding: 2px 0 6px;
+    margin: 0.5 16px;
+    
+}
+
+
+.opcion{
+    background-color: #15151E;
+    border: 1px solid;
+    margin: 2px;
+    text-align: center;
+    padding: 7px;
+    flex-grow: 1;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.opcion2{
+    background-color: #E10600;
+    border: 1px solid;
+    margin: 2px;
+    text-align: center;
+    padding: 7px;
+    flex-grow: 1;
+    border-radius: 5px;
+
+}
+.mi-color-navbar .navbar-nav .nav-link{
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+.mi-color-navbar .navbar-nav .nav-item:nth-child(4) .nav-link {
+    margin-right: 100px; 
+}
+
+.navbar{
+    border-bottom: 1px solid white;
+}
+
+.mi-color-navbar2 {
+    background-color: #15151E !important; ;
+}
+
+.mi-color-navbar2 .navbar-nav .nav-link {
+    color: white;
+    margin-right: 30px;
+}
+
+.mi-color-navbar .navbar-nav .nav-item:first-child .nav-link {
+    margin-left: 40px; 
+}
+
+.f1-TV-logo {
+    width: 73px;
+    height: 12px;
+    margin: 13px;
+    margin-right: 40px;
+}
+
+.f1-TV-logo2 {
+    width: 141px;
+    height: 30px;
+    margin: 13px;
+    margin-right: 80px;
+}
+
+body{ 
+    font-family: "Orbitron";
+    color: white;
+    font-size: 14px;
+
+}
+.opcion:hover{
+    background-color: #41484f;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.opcion2:hover{
+    background-color: #ffff;
+    cursor: pointer;
+    color: black;
+    transition: 0.8s;
+
+}
+
+#carouselExampleIndicators .carousel-inner {
+    background: linear-gradient(to right, transparent, black);
+}
+
+.cuadroDegradado {
+    width: 100%;
+    height: 560px; 
+    background: rgb(21,21,30);
+    background: linear-gradient(90deg, rgba(21,21,30,1) 11%, rgba(21,21,30,0.44879201680672265) 33%);
+    position: absolute; 
+    z-index: 1; 
+}
+
+
+.btn-danger {
+    position: relative;
+    top: 375px;
+    left: 140px;
+    z-index: 6;
+    background-color: #E10600 ;
+    border-radius: 30px;
+
+  }
+  
+  
+  .btn-danger:hover {
+    background-color: #d25454; /* Darker red on hover */
+  }
+
+.Texto{
+    position: absolute;
+    top: 290px;
+    left: 140px;
+    z-index: 6; 
+    color: white;
+    font-size: 25px;
+}
+.Texto2{
+    position: absolute;
+    top: 330px;
+    left: 140px;
+    z-index: 6; 
+    color: white;
+    font-size: 14px;
+}
+
+
+>>>>>>> 4a1e7fed9c0be455c47126b9a7ee5031bcc35ff1
