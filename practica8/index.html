@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    img{
+        width: 300px;
+        height: 300px;
+    }
+
+
+    #pop{
+        filter: blur(5px);
+        filter: brightness(0.5);
+        filter: invert(1);
+        filter: sepia(1);
+        filter: blur(5px) brightness(0.5) invert(1) sepia(1);
+    }
+
+    #pop2{
+        filter: blur(5px);
+        filter: brightness(0.5);
+        filter: invert(1);
+        filter: sepia(1);
+        filter: blur(5px) brightness(0.5) invert(1) sepia(1);
+    }
+
+    #pop3{
+        filter: blur(5px);
+        filter: brightness(0.5);
+        filter: invert(1);
+        filter: sepia(1);
+        filter: blur(5px) brightness(0.5) invert(1) sepia(1);
+    }
+    
+    @keyframes pop {
+        0%{
+            transform: scale(1);
+        }
+        50%{
+            transform: scale(1.5);
+        }
+        100%{
+            transform: scale(1);
+        }
+    
+    }
+
+
+</style>
+<body>
+<h1>the beatles</h1>
+    <img id="pop" src="https://imgs.search.brave.com/MNKAkDNtdGYHi4wPtwT8X6GM2XUjN7iXoUYmfCs-vuY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/cm9ja2FyY2hpdmUu/Y29tL21lZGlhLzM1/MzEvYmVhdGxlcy10/aGUtdGIwMDJhbGJ5/LmpwZz9jcm9wPTAu/MTA2ODE0MzE1NDcx/MjQzMjksMC4xMTM1/Mzc3OTQ1NjY2MTc2/LDAuMDM5ODA5MTgx/MjkxMDE0MzMsMC4w/MTkyMDk2NjE0OTI1/ODcyMiZjcm9wbW9k/ZT1wZXJjZW50YWdl/JndpZHRoPTgwMCZo/ZWlnaHQ9ODAwJnJu/ZD0xMzIyMzY2NDcw/ODAwMDAwMDA" alt="">
+    <img id="pop2" src="https://imgs.search.brave.com/wV6O1wAWa4qRPNreU8GNoQaAqF-LbVXhV6bOtiH3knQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbmRp/ZWhveS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMDcv/dGhlLWJlYXRsZXMt/LmpwZw" alt="">
+    <img id="pop3" src="https://imgs.search.brave.com/W1diesXQwSHq2uyHiN0BWrLkJSvXTdBXkuqX1uyGZp4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzkzL2Rl/LzlmLzkzZGU5ZjA0/NjI0ODA1NmM2ZWRj/MDllZTZjNzIyMzc5/LmpwZw" alt="">
+
+</body>
+</html>

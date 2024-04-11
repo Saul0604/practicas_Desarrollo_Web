@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica13</title>
+</head>
+<body>
+    <h1>practica 13</h1>
+    <p id="nombre Completo">Este es un parrafo</p>
+
+    <script>
+        /*
+        let miVariable = 10;//number-entero
+        miVariable = 20
+        let numero = 15;//number-entero
+        let texto = "Hola mundo";//string
+        console.log(texto);
+        console.log(miVariable, numero);
+        console.log("Resultado en consola:", miVariable);
+        */
+       let edad = 25;
+       console.log(edad);
+       
+       function muestraEdad(miedad) {
+        miedad = edad *10;
+        return edad;
+       }
+
+       console.log(muestraEdad(edad));
+       console.log("edad:" + edad);      const PI = 3.1416;// constante, float, number
+
+       function areacirculo(radio){
+        return PI * (radio*radio)
+       }
+
+       let area = areacirculo(5);
+       console.log("Area del circulo es" + area);
+
+       function saludar(nombre){
+        return "Hola " + nombre;
+       }
+
+       //camelCase - nuevoNombre
+       let nuevoNombre = "Luis"
+       console.log(saludar(nuevoNombre)); 
+
+       let estado = true; //Boolean
+       let otroEstado = false; //Boolean
+       let arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+       let arreglo2 = ["python", "java", "JS"];//Array
+       let arreglo3 = [1, "python", false];// array
+       let arregloBool = [true, false, false, true]
+
+       console.log(estado)
+       console.log(arreglo[2]);
+       console.log(arreglo2[5]);
+
+       let nulo = null; // Null
+
+       console.log("resultado de nulo: "+ nulo);
+
+       let nombre = "tony";
+       let Apellido = "stark"
+       let nombreCompleto = nombre + " " + Apellido;
+       console.log(nombreCompleto);
+
+       let nombreEnPantalla = document.getElementById("nombre Completo");
+       nombreEnPantalla.innerHTML= nombreCompleto;
+    </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica7</title>
+
+    <style>
+        body {
+            animation: colores 5s infinite;
+        }
+
+        @keyframes colores {
+            0% {
+                background-color: red;
+            }
+            50%{
+                background-color: rgb(42, 150, 69);
+            }
+            100% {
+                background-color: blue;
+            }
+        }
+
+        .cuadroBlanco {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            position: absolute;
+            top: 300px;
+            left: 150px; /* Ajusta la posición inicial */
+            animation: mover 3s infinite, mueveCuadro 3s infinite;
+        }
+
+        #cuadroBlanco2 {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(214, 29, 29);
+            position: absolute;
+            top: 300px;
+            left: 300px; /* Ajusta la posición inicial */
+            animation: crece 2s infinite;
+        }
+
+        @keyframes crece {
+            0% {
+                width: 100px;
+                height: 100px;
+            }
+
+            25% {
+                width: 150px;
+                height: 150px;
+            }
+            50% {
+                width: 200px;
+                height: 200px;
+            }
+        }
+
+        @keyframes mover {
+            0% {
+                left: 100px;
+                top: 100px;
+                width: 100px;
+                height: 100px;
+            }
+
+            25% {
+                left: 300px; /* Ajusta la posición en la animación */
+                top: 100px;
+                width: 150px;
+                height: 150px;
+            }
+            50% {
+                left: 500px; /* Ajusta la posición en la animación */
+                top: 100px;
+                width: 200px;
+                height: 200px;
+            }
+        }
+
+        @keyframes mueveCuadro {
+            0% {
+                left: 100px;
+                top: 100px;
+            }
+
+            25% {
+                left: 300px; /* Ajusta la posición en la animación */
+                top: 100px;
+            }
+            50% {
+                left: 500px; /* Ajusta la posición en la animación */
+                top: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cuadroBlanco"></div>
+    <div id="cuadroBlanco2"></div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+body{
+    font-family: 'Arial, sans-serif';
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+    color: white !important;
+}
+
+.opcion{
+    background-color: darkcyan;
+    border: 1px solid;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    flex-grow: 1;
+    --webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 20px;
+
+}
+
+.opcion:hover{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    box-shadow: 10px 25px 89px -18px rgba(0,0,0,0.7) inset;
+    -webkit-box-shadow: 10px 25px 89px -18px rgba(0,0,0,0.7) inset;
+    -moz-box-shadow: 10px 25px 89px -18px rgba(0,0,0,0.7) inset;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 20px;
+}
+
+#menu{
+    display:flex;
+    flex: wrap;
+
+
+}
