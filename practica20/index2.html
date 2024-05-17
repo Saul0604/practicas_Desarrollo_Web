@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="cal-body">
+        <div class="input">
+            <input type="text">
+        </div>
+        <div style="padding-top: 40px;">
+
+            <div class="buttons">
+                <button type="button" class = "btn btn-dark form-control rounded-pill" onclick="asignar(3.1416)">π</button>
+                <button type="button" class = "btn btn-dark form-control rounded-pill" onclick="asignar('**2')">x²</button>
+                <button type="button" class = "btn btn-dark form-control rounded-pill" onclick="asignar('Math.sqrt')">√</button>
+                <button type="button" class = "btn btn-dark form-control rounded-pill" onclick="asignar('')">sin</button>
+            </div>
+            <div class="buttons">
+                <button type="button" class = "btn btn-dark form-control rounded-pill" onclick="asignar('')">cos</button>
+                <button type="button" class = "btn btn-dark form-control rounded-pill" onclick="asignar('**2')">tan</button>
+                <button type="button" class = "btn btn-dark form-control rounded-pill" onclick="asignar('')">!</button>
+                <button type="button" class = "btn btn-dark form-control rounded-pill" onclick="asignar('')">^</button>
+            </div>
+            <div class="buttons">
+                <button type="button" class = "btn btn-primary form-control rounded-pill" onclick="asignar(1)">1</button>
+                <button type="button" class = "btn btn-primary form-control rounded-pill" onclick="asignar(2)">2</button>
+                <button type="button" class = "btn btn-primary form-control rounded-pill" onclick="asignar(3)">3</button>
+                <button type="button" class = "btn btn-primary form-control rounded-pill" onclick="asignar('+')">+</button>
+            </div>
+            <div class="buttons">
+                <button type="button" class = "btn btn-primary form-control rounded-pill" onclick="asignar(4)">4</button>
+                <button type="button" class = "btn btn-primary form-control rounded-pill" onclick="asignar(5)">5</button>
+                <button type="button" class = "btn btn-primary form-control rounded-pill" onclick="asignar(6)">6</button>
+                <button type="button" class = "btn btn-primary form-control rounded-pill" onclick="asignar('-')">-</button>
+            </div>
+            <div class="buttons">
+                <button type="button" class = "btn btn-primary form-control rounded-pill" onclick="asignar(7)">7</button>
+                <button type="button" class = "btn btn-primary form-control rounded-pill" onclick="asignar(8)">8</button>
+                <button type="button" class = "btn btn-primary form-control rounded-pill" onclick="asignar(9)">9</button>
+                <button type="button" class = "btn btn-primary form-control rounded-pill" onclick="asignar('*')">x</button>
+            </div>
+            <div class="buttons">
+                <button type="button" class = "btn btn-secondary form-control rounded-pill" onclick="asignar('.')">.</button>
+                <button type="button" class = "btn btn-secondary form-control rounded-pill" onclick="asignar(0)">0</button>
+                <button style="width: 140px;" type="button" class = "btn btn-warning form-control rounded-pill" onclick="calcular('=')">=</button>
+                
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
